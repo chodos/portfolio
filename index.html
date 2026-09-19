@@ -1,0 +1,1001 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Caio Hodos | Desenvolvimento e infraestrutura web para agências
+    </title>
+    <meta
+      name="description"
+      content="Desenvolvimento web, manutenção WordPress e infraestrutura de servidores de alto desempenho para agências e negócios que precisam de base técnica sólida."
+    />
+    <link rel="icon" type="image/webp" href="assets/logo_chodos.webp" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <meta
+      property="og:title"
+      content="Caio Hodos | Tecnologia que mantém o digital em movimento"
+    />
+    <meta
+      property="og:description"
+      content="Desenvolvimento web, manutenção WordPress e infraestrutura de alto desempenho para agências e negócios que precisam de base técnica sólida."
+    />
+    <meta
+      property="og:image"
+      content="https://chodos.dev/assets/logo_chodos.webp"
+    />
+    <meta property="og:url" content="https://chodos.dev" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body>
+    <main class="page" id="top">
+      <header class="header">
+        <div class="logo" aria-label="Logo de chodos.dev">
+          <a href="#" data-secao="top"
+            ><img src="assets/logo_chodos.webp" alt="Logotipo da marca"
+          /></a>
+        </div>
+
+        <nav class="nav" aria-label="Menu principal">
+          <ul class="nav-menu">
+            <li><a href="#" data-secao="servicos">Serviços</a></li>
+            <li><a href="#" data-secao="agencias">Agências</a></li>
+            <li><a href="#" data-secao="trabalhos">Trabalhos</a></li>
+          </ul>
+        </nav>
+
+        <div class="actions" aria-label="Ações do usuário">
+          <a class="btn btn-primary" type="button" data-secao="diagnostico">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>
+            <span>Diagnóstico</span></a
+          >
+          <a
+            class="btn btn-primary"
+            type="button"
+            href="https://wa.me/551151942949"
+            target="_blank"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              width="18"
+              height="18"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413"
+              />
+            </svg>
+            <span>WhatsApp</span>
+          </a>
+        </div>
+      </header>
+
+      <section class="hero" aria-label="Seção inicial da landing page">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <h1>
+              Tecnologia que<br />mantém o seu
+              <span style="color: #f26419">digital</span><br />em movimento.
+            </h1>
+            <p>
+              Desenvolvimento web, operação WordPress e servidores de alto
+              desempenho para negócios e agências que precisam de base técnica
+              para continuar crescendo.
+            </p>
+            <div class="actions">
+              <a class="btn btn-primary" type="button" data-secao="diagnostico"
+                >Falar sobre o cenário
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m7 7 10 10"></path>
+                  <path d="M17 7v10H7"></path>
+                </svg>
+              </a>
+              <a class="btn btn-secondary" type="button" data-secao="servicos">
+                Conhecer as frentes
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m7 7 10 10"></path>
+                  <path d="M17 7v10H7"></path>
+                </svg>
+              </a>
+            </div>
+            <div class="details">
+              <span>DESENVOLVIMENTO · OPERAÇÃO · INFRAESTRUTURA</span>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="details">
+              <span>ESTABILIDADE NÃO É ACASO. É ARQUITETURA.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="solutions" aria-label="Seção de soluções">
+        <div class="solutions-grid">
+          <div class="solutions-intro">
+            <span class="details">Quem está do outro lado</span>
+            <h2>A camada técnica que deixa a criação seguir.</h2>
+            <p>
+              Quando a agência lidera estratégia, marca e campanha, entro como a
+              frente que traduz demandas digitais em estrutura executável — com
+              comunicação direta e responsabilidade compartilhada pela entrega.
+            </p>
+          </div>
+
+          <div class="solutions-visual">
+            <div class="solutions-top">
+              <p>
+                Sou Caio Hodos, comecei em ambiente corporativo e há 13 anos
+                atuo direto com agências e negócios digitais, cuidando de
+                aplicações e infraestrutura de servidores. Sem equipe entre você
+                e quem resolve — o diagnóstico, a decisão técnica e a entrega
+                passam pela mesma pessoa.
+              </p>
+            </div>
+
+            <div class="solutions-bottom">
+              <article class="feature-card">
+                <span class="details">Acoplamento</span>
+                <p>
+                  Trabalho próximo às equipes de criação, mídia e atendimento.
+                </p>
+              </article>
+              <article class="feature-card">
+                <span class="details">Visibilidade</span>
+                <p>Prioridades técnicas explicadas sem jargão desnecessário.</p>
+              </article>
+              <article class="feature-card">
+                <span class="details">Continuidade</span>
+                <p>Operação pensada além da data de lançamento.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="servicos" class="services" aria-label="Seção de serviços">
+        <div class="services-grid">
+          <div class="services-row services-row--intro">
+            <div class="services-heading">
+              <span class="details">Serviços em foco</span>
+              <h2>Toda entrega tem uma base. Vamos deixá-la pronta.</h2>
+            </div>
+            <div>
+              <p>
+                Três especialidades conectadas para reduzir atrito entre ideia,
+                publicação e operação diária.
+              </p>
+            </div>
+          </div>
+
+          <div class="services-row">
+            <div class="services-index">
+              <span class="details">S1</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M12 17v4"></path>
+                <path d="m15.2 4.9-.9-.4"></path>
+                <path d="m15.2 7.1-.9.4"></path>
+                <path d="m16.9 3.2-.4-.9"></path>
+                <path d="m16.9 8.8-.4.9"></path>
+                <path d="m19.5 2.3-.4.9"></path>
+                <path d="m19.5 9.7-.4-.9"></path>
+                <path d="m21.7 4.5-.9.4"></path>
+                <path d="m21.7 7.5-.9-.4"></path>
+                <path
+                  d="M22 13v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7"
+                ></path>
+                <path d="M8 21h8"></path>
+                <circle cx="18" cy="6" r="3"></circle>
+              </svg>
+            </div>
+            <div class="services-copy">
+              <span class="details">Desenvolvimento Web</span>
+              <h3>Sistemas que acompanham a operação — e não a limitam.</h3>
+              <p>
+                Aplicações, portais e integrações pensados a partir do fluxo
+                real do negócio. Da arquitetura à publicação, cada camada é
+                construída para permanecer compreensível e sustentável.
+              </p>
+              <ul>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M20 6 9 17l-5-5"></path></svg
+                  >Aplicações sob medida
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M20 6 9 17l-5-5"></path></svg
+                  >Integrações
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M20 6 9 17l-5-5"></path></svg
+                  >Portais e dashboards
+                </li>
+              </ul>
+            </div>
+            <div class="services-aside">Produto</div>
+          </div>
+
+          <div class="services-row">
+            <div class="services-index">
+              <span class="details">S2</span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                ></path>
+                <path d="m9 12 2 2 4-4"></path>
+              </svg>
+            </div>
+            <div class="services-copy">
+              <span class="details">Wordpress em Operação</span>
+              <h3>Manutenção e proteção para o site seguir entregando.</h3>
+              <p>
+                Atualizações, monitoramento, ajustes de performance e práticas
+                de segurança que preservam a autonomia do time de marketing sem
+                deixar a base técnica em segundo plano.
+              </p>
+              <ul>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M20 6 9 17l-5-5"></path></svg
+                  >Core & plugins
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M20 6 9 17l-5-5"></path>
+                  </svg>
+                  Performance
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M20 6 9 17l-5-5"></path>
+                  </svg>
+                  Segurança contínua
+                </li>
+              </ul>
+            </div>
+            <div class="services-aside">Presença</div>
+          </div>
+
+          <div class="services-row">
+            <div class="services-index">
+              <span class="details">S3</span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="12" cy="12" r="3"></circle>
+                <path
+                  d="M4.5 10H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-.5"
+                ></path>
+                <path
+                  d="M4.5 14H4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2h-.5"
+                ></path>
+                <path d="M6 6h.01"></path>
+                <path d="M6 18h.01"></path>
+                <path d="m15.7 13.4-.9-.3"></path>
+                <path d="m9.2 10.9-.9-.3"></path>
+                <path d="m10.6 15.7.3-.9"></path>
+                <path d="m13.6 15.7-.4-1"></path>
+                <path d="m10.8 9.3-.4-1"></path>
+                <path d="m8.3 13.6 1-.4"></path>
+                <path d="m14.7 10.8 1-.4"></path>
+                <path d="m13.4 8.3-.3.9"></path>
+              </svg>
+            </div>
+            <div class="services-copy">
+              <span class="details">Infraestrutura Gerenciada</span>
+              <h3>Servidor preparado para o volume que o projeto exige.</h3>
+              <p>
+                Configuração e gestão de ambientes de alto desempenho, com
+                escolha consciente de recursos, observabilidade e rotinas de
+                continuidade para aplicações e sites críticos.
+              </p>
+              <ul>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M20 6 9 17l-5-5"></path></svg
+                  >Deploy e monitoramento
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M20 6 9 17l-5-5"></path></svg
+                  >Performance contínua
+                </li>
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M20 6 9 17l-5-5"></path></svg
+                  >Otimização de ambiente
+                </li>
+              </ul>
+            </div>
+            <div class="services-aside">Base</div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="agencias"
+        class="partnerships"
+        aria-label="Seção de parcerias"
+      >
+        <div class="partnerships-inner">
+          <div class="partnerships-copy">
+            <span class="details">Parceria Operacional</span>
+            <h2>A agência conduz. Sustento a base técnica.</h2>
+            <p>
+              Uma extensão técnica com presença nos momentos que mais exigem
+              precisão: escopos especiais, lançamentos, manutenção de ativos e
+              evolução de estruturas já existentes.
+            </p>
+            <a href="#" class="btn btn-secondary" data-secao="diagnostico"
+              >Explorar Parceria<svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="m7 7 10 10"></path>
+                <path d="M17 7v10H7"></path></svg
+            ></a>
+          </div>
+
+          <div class="partnerships-visual">
+            <div class="head">
+              <span class="details">Fluxo de entrega</span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="16" y="16" width="6" height="6" rx="1"></rect>
+                <rect x="2" y="16" width="6" height="6" rx="1"></rect>
+                <rect x="9" y="2" width="6" height="6" rx="1"></rect>
+                <path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"></path>
+                <path d="M12 12V8"></path>
+              </svg>
+            </div>
+            <div class="content">
+              <div>
+                <span class="details">01</span>
+                <h3 class="details">Briefing</h3>
+                <p>Objetivo, escopo e restrições técnicas.</p>
+              </div>
+              <div>
+                <span class="details">02</span>
+                <h3 class="details">Estrutura</h3>
+                <p>Desenvolvimento, ambiente e integrações.</p>
+              </div>
+              <div>
+                <span class="details">03</span>
+                <h3 class="details">Entrega</h3>
+                <p>Publicação, operação e próximos ciclos.</p>
+              </div>
+            </div>
+            <div class="footer">
+              <div>
+                <span class="details">Ritmo</span>
+                <p>Campanhas, sprints e demandas recorrentes.</p>
+              </div>
+              <div>
+                <span class="details">Linguagem</span>
+                <p>Clareza técnica para todas as áreas.</p>
+              </div>
+              <div>
+                <span class="details">Presença</span>
+                <p>Apoio desde a decisão até o pós-lançamento.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="trabalhos"
+        class="selected-works"
+        aria-label="Seção de trabalhos selecionados"
+      >
+        <div class="sw-inner">
+          <div class="sw-intro">
+            <div class="sw-intro-left">
+              <span class="details">Trabalhos selecionados</span>
+              <h2>Onde desenvolvimento e infraestrutura se encontram.</h2>
+            </div>
+            <div class="sw-intro-right">
+              <p>
+                Do desenvolvimento à infraestrutura que sustenta tudo no ar,
+                projetos onde o problema técnico era real e a solução, também.
+              </p>
+            </div>
+          </div>
+
+          <div class="sw-row work-1">
+            <div class="sw-number">
+              01<svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="m7 7 10 10"></path>
+                <path d="M17 7v10H7"></path>
+              </svg>
+            </div>
+            <div class="sw-content">
+              <div class="sw-top">
+                <div>
+                  <span class="details">Alto tráfego</span>
+                  <h3>Mar Sem Fim</h3>
+                </div>
+                <span class="details">Case / 01</span>
+              </div>
+              <div class="sw-bottom">
+                <div class="sw-meta">
+                  <h4 class="sw-subtitle">
+                    Uma operação editorial preparada para picos de atenção.
+                  </h4>
+                  <p class="sw-paragraph">
+                    Manutenção WordPress, evolução do layout e gestão de
+                    servidor VPS LiteSpeed para suportar momentos de alto
+                    tráfego.
+                  </p>
+                  <div class="sw-tags">
+                    <span>+10 anos de parceria</span><span>WordPress</span
+                    ><span>VPS LiteSpeed</span>
+                  </div>
+                </div>
+                <div class="sw-image" aria-hidden="true">
+                  <img
+                    src="assets/marsemfim.webp"
+                    alt="Imagem do projeto Mar Sem Fim"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sw-row work-2">
+            <div class="sw-number">
+              02<svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="m7 7 10 10"></path>
+                <path d="M17 7v10H7"></path>
+              </svg>
+            </div>
+            <div class="sw-content">
+              <div class="sw-top">
+                <div>
+                  <span class="details">Resiliência</span>
+                  <h3>Storage Guarda-Tudo</h3>
+                </div>
+                <span class="details">Case / 02</span>
+              </div>
+              <div class="sw-bottom">
+                <div class="sw-meta">
+                  <h4 class="sw-subtitle">
+                    Continuidade planejada para quando a operação não pode
+                    parar.
+                  </h4>
+                  <p class="sw-paragraph">
+                    Atuação desde a manutenção às adequações de código,
+                    recuperação de panes, assessoria técnica e gestão de VPS com
+                    servidor secundário em contingência.
+                  </p>
+                  <div class="sw-tags">
+                    <span>+10 anos de parceria</span><span>VPS redundante</span
+                    ><span>Assessoria técnica</span>
+                  </div>
+                </div>
+                <div class="sw-image" aria-hidden="true">
+                  <img
+                    src="assets/storageguardatudo.webp"
+                    alt="Imagem do projeto Storage Guarda-Tudo"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sw-row work-3">
+            <div class="sw-number">
+              03<svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="m7 7 10 10"></path>
+                <path d="M17 7v10H7"></path>
+              </svg>
+            </div>
+            <div class="sw-content">
+              <div class="sw-top">
+                <div>
+                  <span class="details">E-Commerce</span>
+                  <h3>Caktus Ocean</h3>
+                </div>
+                <span class="details">Case / 03</span>
+              </div>
+              <div class="sw-bottom">
+                <div class="sw-meta">
+                  <h4 class="sw-subtitle">
+                    Uma loja virtual com a operação técnica sob controle.
+                  </h4>
+                  <p class="sw-paragraph">
+                    Hospedagem e gestão técnica da loja virtual, com foco em
+                    disponibilidade, acompanhamento do ambiente e sustentação da
+                    experiência de compra.
+                  </p>
+                  <div class="sw-tags">
+                    <span>Hospedagem</span><span>Manutenção</span
+                    ><span>WooCommerce</span>
+                  </div>
+                </div>
+                <div class="sw-image" aria-hidden="true">
+                  <img
+                    src="assets/caktus.webp"
+                    alt="Imagem do projeto Caktus Ocean"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sw-row work-4">
+            <div class="sw-number">
+              04<svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="m7 7 10 10"></path>
+                <path d="M17 7v10H7"></path>
+              </svg>
+            </div>
+            <div class="sw-content">
+              <div class="sw-top">
+                <div>
+                  <span class="details">Projeto completo</span>
+                  <h3>Ka’Nalu Restaurante</h3>
+                </div>
+                <span class="details">Case / 04</span>
+              </div>
+              <div class="sw-bottom">
+                <div class="sw-meta">
+                  <h4 class="sw-subtitle">
+                    Da primeira composição à publicação do site.
+                  </h4>
+                  <p class="sw-paragraph">
+                    Criação e reelaboração do layout, desenvolvimento e
+                    hospedagem do site em uma entrega integrada — da linguagem
+                    visual à base que mantém tudo no ar.
+                  </p>
+                  <div class="sw-tags">
+                    <span>Layout</span><span>Desenvolvimento</span
+                    ><span>Hospedagem</span>
+                  </div>
+                </div>
+                <div class="sw-image" aria-hidden="true">
+                  <img
+                    src="assets/kanalu.webp"
+                    alt="Imagem do projeto Ka'Nalu Restaurante"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="diagnostico"
+        class="contact-section"
+        aria-label="Seção de contato"
+      >
+        <div class="contact-grid">
+          <div class="contact-copy">
+            <h2>Traga o gargalo.<br />A primeira leitura é por minha conta.</h2>
+            <p>
+              Conte o que está comprometendo a entrega, a velocidade ou a
+              tranquilidade da sua operação. O ponto de partida é entender
+              prioridade, contexto e próximo passo possível.
+            </p>
+          </div>
+
+          <form id="contact-form" class="contact-form">
+            <div class="field-row">
+              <label>
+                Nome
+                <input type="text" name="nome" placeholder="Seu nome" />
+              </label>
+              <label>
+                E-mail
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="voce@empresa.com.br"
+                />
+              </label>
+            </div>
+
+            <label>
+              Empresa ou Agência
+              <input type="text" name="empresa" placeholder="Nome da empresa" />
+            </label>
+
+            <label>
+              O que precisa entrar em ordem?
+              <textarea
+                name="mensagem"
+                rows="5"
+                placeholder="Conte o cenário, o sistema ou o site envolvido."
+              ></textarea>
+            </label>
+
+            <div class="field-row">
+              <button type="submit" class="btn btn-primary">
+                Solicitar diagnóstico<svg
+                  style="margin-left: 10px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"
+                  ></path>
+                  <path d="m21.854 2.147-10.94 10.939"></path>
+                </svg>
+              </button>
+              <p id="feedback-form" class="feedback"></p>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <footer class="site-footer" aria-label="Rodapé">
+        <div class="footer-row">
+          <div class="footer-brand">
+            <div class="logo" aria-label="Logo de chodos.dev">
+              <img src="assets/logo_chodos.webp" alt="Logotipo da marca" />
+            </div>
+          </div>
+
+          <div class="footer-contact">
+            <p class="details">Contato</p>
+            <a class="item" href="tel:+551151942949">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                ></path>
+              </svg>
+              <span>Telefone e WhatsApp</span><span>+55 (11) 5194-2949</span>
+            </a>
+            <a class="item" href="mailto:contato@chodos.dev"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg
+              ><span>E-mail</span><span>contato@chodos.dev</span></a
+            >
+            <a
+              class="item"
+              href="https://www.linkedin.com/in/chodos"
+              target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                ></path>
+                <rect width="4" height="12" x="2" y="9"></rect>
+                <circle cx="4" cy="4" r="2"></circle></svg
+              ><span>Linkedin</span><span>/chodos</span></a
+            >
+          </div>
+        </div>
+
+        <div class="footer-row footer-row--bottom">
+          <div class="footer-copyright">
+            <p>© 2026 chodos.dev. Tecnologia que continua respondendo.</p>
+          </div>
+
+          <div class="footer-top-link">
+            <a href="#" class="btn btn-secondary" data-secao="top"
+              ><svg
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12 6.83 5.41 13.41 4 12l8-8 8 8-1.41 1.41L12 6.83Z"
+                ></path></svg
+              >Voltar ao topo</a
+            >
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script>
+      document.querySelectorAll("[data-secao]").forEach((link) => {
+        link.addEventListener("click", (event) => {
+          const secao = event.currentTarget.dataset.secao;
+          if (!secao) return;
+
+          event.preventDefault();
+
+          const alvo = document.getElementById(secao);
+          if (!alvo) return;
+
+          alvo.scrollIntoView({ behavior: "smooth", block: "start" });
+        });
+      });
+
+      const form = document.getElementById("contact-form");
+      const submitBtn = form.querySelector('button[type="submit"]');
+      const feedbackMsg = document.getElementById("feedback-form");
+
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+
+        const formData = new FormData(form);
+        formData.append("access_key", "b393fd98-5459-4ac6-99db-2d7fd800c6e0");
+
+        const originalText = submitBtn.textContent;
+
+        submitBtn.textContent = "Enviando...";
+        submitBtn.disabled = true;
+
+        try {
+          const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: formData,
+          });
+
+          const data = await response.json();
+
+          if (response.ok) {
+            feedbackMsg.innerText = "Sua mensagem foi enviada!";
+            feedbackMsg.style.color = "green";
+            form.reset();
+          } else {
+            feedbackMsg.innerText = "Ocorreu um erro ao enviar";
+            feedbackMsg.style.color = "red";
+            console.error("Error: " + data.message);
+          }
+        } catch (error) {
+          feedbackMsg.innerText =
+            "Erro de conexão. Tente novamente mais tarde.";
+          feedbackMsg.style.color = "red";
+        } finally {
+          submitBtn.textContent = originalText;
+          submitBtn.disabled = false;
+        }
+      });
+    </script>
+  </body>
+</html>
